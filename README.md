@@ -35,5 +35,11 @@ Open a browser on `http://localhost`. Refresh. It should always be the same rand
 docker-compose scale words-api=20
 ```
 
-Open a browser on `http://localhost:8000`. Refresh. It should be a new random sentence each time.
+## Alternate Scale the backend
+
+```
+docker-compose -f docker-compose-optimized.yml scale words-api=20
+```
+
+Open a browser on `http://localhost`. Refresh. It should be a new random sentence each time.
 
