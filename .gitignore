@@ -3,3 +3,6 @@
 target/
 images.tar
 certificates
+publish
+words-aspnet/bin
+words-aspnet/obj
