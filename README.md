@@ -13,18 +13,20 @@ docker-compose build
 ```
 docker-compose up -d
 ```
+Open a browser on [http://localhost](http://localhost). Refresh. It should always be the same random sentence.
 
 ### Scale the backend
 
 ```
 docker-compose scale words-api=20
 ```
+Open a browser on [http://localhost](http://localhost). Refresh. It should be a new random sentence each time.
 
 ## Alternate usage
 
-Please see `https://blogs.msdn.microsoft.com/stevelasker/2016/09/29/building-optimized-docker-images-with-asp-net-core/`
+Please see [https://blogs.msdn.microsoft.com/stevelasker/2016/09/29/building-optimized-docker-images-with-asp-net-core/](https://blogs.msdn.microsoft.com/stevelasker/2016/09/29/building-optimized-docker-images-with-asp-net-core/)
 
-### Setup (build AspNetCore in a dedicated container)
+### Setup (build AspNetCore in a dedicated container then use optimized aspnetcore image)
 
 ```
 docker-compose -f docker-compose-build.yml up
@@ -36,13 +38,11 @@ docker-compose -f docker-compose-optimized.yml build
 ```
 docker-compose -f docker-compose-optimized.yml up -d
 ```
+Open a browser on [http://localhost](http://localhost). Refresh. It should always be the same random sentence.
 
-Open a browser on `http://localhost`. Refresh. It should always be the same random sentence.
-
-### Alternate Scale the backend
+### Scale the backend
 
 ```
 docker-compose -f docker-compose-optimized.yml scale words-api=20
 ```
-
-Open a browser on `http://localhost`. Refresh. It should be a new random sentence each time.
+Open a browser on [http://localhost](http://localhost). Refresh. It should be a new random sentence each time.
