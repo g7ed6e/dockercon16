@@ -9,7 +9,7 @@ namespace words_aspnet.Controllers
     [Route("api/[controller]")]
     public class WordsController : Controller
     {
-        private readonly IWordsProvider _wordsProvider = new WordsProvider();
+        private readonly IWordsProvider _wordsProvider;
 
         public WordsController(IWordsProvider wordsProvider)
         {
