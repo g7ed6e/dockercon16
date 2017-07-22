@@ -3,34 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7994D8C2-EA40-41A0-B50A-EB097CF35E91}"
-	ProjectSection(SolutionItems) = preProject
-		build.sh = build.sh
-		docker-compose.yml = docker-compose.yml
-		README.md = README.md
-	EndProjectSection
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "words-aspnet", "words-aspnet\words-aspnet.csproj", "{E97FDDA2-5B42-4A04-BC97-C2A50810CF93}"
-EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "web", "web\", "{7AC8ABED-2F23-4EDC-96F9-1559003FBF66}"
-	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_11206"
-		Debug.AspNetCompiler.PhysicalPath = "web\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_11206\"
-		Debug.AspNetCompiler.Updateable = "true"
-		Debug.AspNetCompiler.ForceOverwrite = "true"
-		Debug.AspNetCompiler.FixedNames = "false"
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_11206"
-		Release.AspNetCompiler.PhysicalPath = "web\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_11206\"
-		Release.AspNetCompiler.Updateable = "true"
-		Release.AspNetCompiler.ForceOverwrite = "true"
-		Release.AspNetCompiler.FixedNames = "false"
-		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "11206"
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

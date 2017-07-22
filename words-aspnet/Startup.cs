@@ -28,7 +28,7 @@ namespace words_aspnet
         public void ConfigureServices(IServiceCollection services)
         {
             // DI
-            services.AddSingleton<IWordsProvider, WordsProvider>();
+            services.AddScoped<IWordsProvider, WordsProvider>();
             
             // Add framework services.
             services.AddMvc();
