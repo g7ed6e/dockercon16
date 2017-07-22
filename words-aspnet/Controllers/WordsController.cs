@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace words_aspnet.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("words")]
     public class WordsController : Controller
     {
         private readonly IWordsProvider _wordsProvider;
